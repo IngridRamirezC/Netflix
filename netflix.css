@@ -1,0 +1,66 @@
+
+.barra{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3%;
+    margin-right: 3%;
+    margin-top: 1.5%;
+}
+
+.barra a img{
+    flex: auto;
+    width: 30px;
+    height: 20px;
+}
+
+.whos{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfiles{
+display: flex;
+align-items:space-around;
+align-content: center;
+justify-content: center;
+flex-direction:row;
+margin-left: auto;
+margin-right: auto;
+width: 50px;
+height: 50px;
+}
+
+.hiper{
+    border-color: black;
+    border-style: solid;
+    width: auto;
+    height: auto;
+}
+
+.text{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.ad{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px;
+}
+
+.ad:hover{
+    border-color: beige;
+    border-style:ridge;
+    width: auto;
+    height: auto;
+}
